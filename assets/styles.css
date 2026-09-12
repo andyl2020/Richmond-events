@@ -2,21 +2,21 @@
    Richmond Events — design tokens
    ============================================================ */
 :root {
-  --bg:            #f7f6f3;
-  --bg-raise:      #ffffff;
-  --bg-sunk:       #efede8;
-  --ink:           #17171a;
-  --ink-2:         #55555f;
-  --ink-3:         #86868f;
-  --line:          #e2e0da;
-  --line-strong:   #d2cfc7;
+  --bg:            #eceeed;   /* tidal flat grey, green bias */
+  --bg-raise:      #fbfcfb;
+  --bg-sunk:       #e1e5e4;
+  --ink:           #14191b;   /* harbour black */
+  --ink-2:         #4e585c;
+  --ink-3:         #7d8a8e;
+  --line:          #d8dddc;
+  --line-strong:   #c2cac9;
 
-  --accent:        #b4451f;   /* dated / primary */
-  --accent-soft:   #fbeee8;
-  --accent-ink:    #8c3315;
-  --teal:          #1d6a63;   /* recurring */
-  --teal-soft:     #e4f1ef;
-  --teal-ink:      #14514c;
+  --accent:        #b3122d;   /* lantern red — dated */
+  --accent-soft:   #fae7ea;
+  --accent-ink:    #8d0d23;
+  --teal:          #1c5f6b;   /* harbour teal — recurring */
+  --teal-soft:     #dfeced;
+  --teal-ink:      #124651;
 
   --radius:        14px;
   --radius-sm:     9px;
@@ -25,29 +25,30 @@
   --shadow-md:     0 4px 16px -4px rgba(20,18,14,.10), 0 2px 5px -2px rgba(20,18,14,.06);
   --shadow-lg:     0 24px 60px -18px rgba(20,18,14,.28);
 
-  --sans: 'Inter', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
-  --serif: 'Instrument Serif', ui-serif, Georgia, 'Times New Roman', serif;
+  --sans: 'Public Sans', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  --display: 'Bricolage Grotesque', 'Public Sans', ui-sans-serif, system-ui, sans-serif;
+  --mono: 'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
 
   --maxw: 1120px;
   --pad: clamp(16px, 4vw, 40px);
 }
 
 :root[data-theme="dark"], html.dark {
-  --bg:            #111113;
-  --bg-raise:      #1a1a1e;
-  --bg-sunk:       #0c0c0e;
-  --ink:           #f2f1ee;
-  --ink-2:         #a8a8b2;
-  --ink-3:         #76767f;
-  --line:          #2a2a30;
-  --line-strong:   #3a3a42;
+  --bg:            #0f1416;
+  --bg-raise:      #171e21;
+  --bg-sunk:       #0a0e10;
+  --ink:           #eef1f1;
+  --ink-2:         #9aa8ac;
+  --ink-3:         #6b787c;
+  --line:          #273134;
+  --line-strong:   #374449;
 
-  --accent:        #ff7a4d;
-  --accent-soft:   #2e1a13;
-  --accent-ink:    #ffa07d;
-  --teal:          #4fbfae;
-  --teal-soft:     #10241f;
-  --teal-ink:      #7fd6c8;
+  --accent:        #ff6b7f;
+  --accent-soft:   #33141c;
+  --accent-ink:    #ff97a6;
+  --teal:          #57bccb;
+  --teal-soft:     #0d2529;
+  --teal-ink:      #85d4e0;
 
   --shadow-sm:     0 1px 2px rgba(0,0,0,.4);
   --shadow-md:     0 4px 18px -4px rgba(0,0,0,.55);
@@ -56,20 +57,20 @@
 
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
-    --bg:            #111113;
-    --bg-raise:      #1a1a1e;
-    --bg-sunk:       #0c0c0e;
-    --ink:           #f2f1ee;
-    --ink-2:         #a8a8b2;
-    --ink-3:         #76767f;
-    --line:          #2a2a30;
-    --line-strong:   #3a3a42;
-    --accent:        #ff7a4d;
-    --accent-soft:   #2e1a13;
-    --accent-ink:    #ffa07d;
-    --teal:          #4fbfae;
-    --teal-soft:     #10241f;
-    --teal-ink:      #7fd6c8;
+    --bg:            #0f1416;
+    --bg-raise:      #171e21;
+    --bg-sunk:       #0a0e10;
+    --ink:           #eef1f1;
+    --ink-2:         #9aa8ac;
+    --ink-3:         #6b787c;
+    --line:          #273134;
+    --line-strong:   #374449;
+    --accent:        #ff6b7f;
+    --accent-soft:   #33141c;
+    --accent-ink:    #ff97a6;
+    --teal:          #57bccb;
+    --teal-soft:     #0d2529;
+    --teal-ink:      #85d4e0;
     --shadow-sm:     0 1px 2px rgba(0,0,0,.4);
     --shadow-md:     0 4px 18px -4px rgba(0,0,0,.55);
     --shadow-lg:     0 24px 60px -18px rgba(0,0,0,.7);
@@ -136,13 +137,13 @@ svg { fill: none; stroke: currentColor; stroke-width: 1.6; stroke-linecap: round
   box-shadow: 0 0 0 4px color-mix(in oklab, var(--accent) 18%, transparent);
 }
 .brand h1 {
-  font-family: var(--serif);
-  font-size: clamp(30px, 6.2vw, 48px);
-  font-weight: 400;
-  letter-spacing: -0.02em;
-  line-height: 1.03;
+  font-family: var(--display);
+  font-size: clamp(28px, 5.6vw, 44px);
+  font-weight: 800;
+  letter-spacing: -0.035em;
+  line-height: 1.0;
 }
-.brand h1 em { font-style: italic; color: var(--accent); }
+.brand h1 em { font-style: normal; font-weight: 500; color: var(--accent); }
 .brand-sub {
   margin-top: 6px; color: var(--ink-2); font-size: 14px; max-width: 46ch;
 }
@@ -274,15 +275,15 @@ main {
   font-size: 13px; color: var(--ink-3);
   padding-bottom: 22px; margin-bottom: 4px;
 }
-.stats b { color: var(--ink); font-weight: 600; font-variant-numeric: tabular-nums; }
+.stats b { color: var(--ink); font-weight: 600; font-family: var(--mono); font-variant-numeric: tabular-nums; }
 
 .list-section + .list-section { margin-top: clamp(40px, 6vw, 64px); }
 .list-section[hidden] { display: none; }
 
 .section-head { margin-bottom: 18px; }
 .section-head h2 {
-  font-family: var(--serif); font-weight: 400; font-size: clamp(22px, 3.6vw, 30px);
-  display: flex; align-items: center; gap: 10px; letter-spacing: -0.01em;
+  font-family: var(--display); font-weight: 700; font-size: clamp(20px, 3.2vw, 26px);
+  display: flex; align-items: center; gap: 10px; letter-spacing: -0.025em;
 }
 .section-head h2 .dot { width: 9px; height: 9px; }
 .section-head p { color: var(--ink-3); font-size: 13.5px; margin-top: 4px; }
@@ -297,12 +298,15 @@ main {
   position: sticky; top: 116px;
   display: flex; flex-direction: column; gap: 1px; padding-top: 12px;
 }
-.day-stamp .dow { font-size: 11px; text-transform: uppercase; letter-spacing: .09em; color: var(--ink-3); font-weight: 600; }
-.day-stamp .dnum { font-family: var(--serif); font-size: 34px; line-height: 1; letter-spacing: -0.02em; }
+.day-stamp .dow { font-family: var(--mono); font-size: 10px; text-transform: uppercase; letter-spacing: .09em; color: var(--ink-3); font-weight: 600; }
+.day-stamp .dnum {
+  font-family: var(--mono); font-size: 32px; font-weight: 500;
+  line-height: 1; letter-spacing: -0.045em; font-variant-numeric: tabular-nums;
+}
 .day-stamp .mon { font-size: 12px; color: var(--ink-2); font-weight: 500; text-transform: uppercase; letter-spacing: .06em; }
 .day-stamp.is-today .dnum, .day-stamp.is-today .dow { color: var(--accent); }
 .day-stamp .today-tag {
-  margin-top: 5px; font-size: 10px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase;
+  margin-top: 5px; font-family: var(--mono); font-size: 9.5px; font-weight: 600; letter-spacing: .1em; text-transform: uppercase;
   color: var(--accent);
 }
 
@@ -332,8 +336,8 @@ main {
 }
 .er-meta .sep { color: var(--line-strong); }
 .er-time {
-  font-variant-numeric: tabular-nums; font-weight: 500; color: var(--ink);
-  white-space: nowrap;
+  font-family: var(--mono); font-size: 12px; font-variant-numeric: tabular-nums;
+  font-weight: 500; color: var(--ink); white-space: nowrap; letter-spacing: -0.01em;
 }
 .event-row .er-side { display: flex; align-items: center; gap: 10px; flex: none; }
 .er-arrow { color: var(--ink-3); }
@@ -343,7 +347,7 @@ main {
 /* badges */
 .badge {
   display: inline-flex; align-items: center; gap: 5px;
-  font-size: 11px; font-weight: 600; letter-spacing: .02em;
+  font-size: 11px; font-weight: 600; letter-spacing: .01em;
   padding: 3px 8px; border-radius: 999px; white-space: nowrap;
   background: var(--bg-sunk); color: var(--ink-2); border: 1px solid transparent;
 }
@@ -372,10 +376,14 @@ main {
 }
 .event-card:hover { border-color: var(--line-strong); box-shadow: var(--shadow-md); transform: translateY(-2px); }
 .event-card .ec-cadence {
-  font-size: 11px; font-weight: 700; letter-spacing: .09em; text-transform: uppercase; color: var(--teal-ink);
+  font-family: var(--mono); font-size: 10px; font-weight: 600; letter-spacing: .1em;
+  text-transform: uppercase; color: var(--teal-ink);
 }
 .event-card .ec-title { font-size: 16px; font-weight: 600; letter-spacing: -0.012em; }
-.event-card .ec-when { font-size: 13.5px; color: var(--ink); font-weight: 500; font-variant-numeric: tabular-nums; }
+.event-card .ec-when {
+  font-family: var(--mono); font-size: 12px; color: var(--ink); font-weight: 500;
+  font-variant-numeric: tabular-nums; letter-spacing: -0.01em;
+}
 .event-card .ec-where { font-size: 13px; color: var(--ink-2); }
 .event-card .ec-foot { margin-top: 3px; display: flex; gap: 6px; flex-wrap: wrap; align-items: center; }
 .event-card .ec-next { font-size: 12px; color: var(--ink-3); }
@@ -394,8 +402,8 @@ main {
 }
 .cal-nav { display: flex; align-items: center; gap: 8px; }
 .cal-nav h2 {
-  font-family: var(--serif); font-weight: 400; font-size: clamp(22px, 4vw, 30px);
-  min-width: 6.5ch; letter-spacing: -0.01em;
+  font-family: var(--display); font-weight: 700; font-size: clamp(20px, 3.4vw, 27px);
+  min-width: 6.5ch; letter-spacing: -0.025em;
 }
 .btn-ghost {
   appearance: none; cursor: pointer; background: var(--bg-raise);
@@ -414,7 +422,7 @@ main {
   border-bottom: 1px solid var(--line); background: var(--bg-sunk);
 }
 .cal-dow span {
-  padding: 9px 10px; min-width: 0; font-size: 11px; font-weight: 600; letter-spacing: .08em;
+  padding: 9px 10px; min-width: 0; font-family: var(--mono); font-size: 10px; font-weight: 500; letter-spacing: .1em;
   text-transform: uppercase; color: var(--ink-3); text-align: left;
 }
 .cal-body { display: grid; grid-template-columns: repeat(7, minmax(0, 1fr)); }
@@ -431,7 +439,7 @@ main {
 .cal-cell.is-out .cal-num { color: var(--ink-3); opacity: .6; }
 
 .cal-num {
-  font-size: 12.5px; font-weight: 600; font-variant-numeric: tabular-nums;
+  font-family: var(--mono); font-size: 12px; font-weight: 500; font-variant-numeric: tabular-nums;
   color: var(--ink-2); width: 24px; height: 24px; display: grid; place-items: center;
   border-radius: 50%; flex: none;
 }
@@ -449,7 +457,10 @@ main {
 .cal-pill:hover { filter: brightness(.96); }
 :root[data-theme="dark"] .cal-pill:hover { filter: brightness(1.35); }
 .cal-pill.is-recurring { background: var(--teal-soft); color: var(--teal-ink); }
-.cal-pill .pt { font-variant-numeric: tabular-nums; opacity: .8; font-weight: 600; flex: none; font-size: 10.5px; }
+.cal-pill .pt {
+  font-family: var(--mono); font-variant-numeric: tabular-nums; opacity: .85;
+  font-weight: 500; flex: none; font-size: 10px; letter-spacing: -0.02em;
+}
 .cal-pill .pn { overflow: hidden; text-overflow: ellipsis; }
 
 .cal-more {
@@ -507,8 +518,8 @@ main {
   display: flex; align-items: center; gap: 8px; flex-wrap: wrap; margin-bottom: 10px;
 }
 .p-title {
-  font-family: var(--serif); font-weight: 400; font-size: clamp(26px, 5.2vw, 34px);
-  line-height: 1.12; letter-spacing: -0.02em; padding-right: 40px;
+  font-family: var(--display); font-weight: 700; font-size: clamp(23px, 4.6vw, 30px);
+  line-height: 1.14; letter-spacing: -0.03em; padding-right: 40px;
 }
 .p-tagline { margin-top: 8px; color: var(--ink-2); font-size: 14.5px; }
 
@@ -522,13 +533,13 @@ main {
 }
 .p-fact + .p-fact { border-top: 1px solid var(--line); }
 .p-fact svg { width: 16px; height: 16px; color: var(--ink-3); margin-top: 2px; }
-.p-fact .fk { font-size: 11px; text-transform: uppercase; letter-spacing: .07em; color: var(--ink-3); font-weight: 600; }
+.p-fact .fk { font-family: var(--mono); font-size: 10px; text-transform: uppercase; letter-spacing: .08em; color: var(--ink-3); font-weight: 600; }
 .p-fact .fv { font-size: 14px; margin-top: 1px; }
 .p-fact .fv a { color: var(--accent); text-underline-offset: 2px; }
 
 .p-section { margin-top: 26px; }
 .p-section h3 {
-  font-size: 11px; text-transform: uppercase; letter-spacing: .1em;
+  font-family: var(--mono); font-size: 10px; text-transform: uppercase; letter-spacing: .1em;
   color: var(--ink-3); font-weight: 700; margin-bottom: 10px;
 }
 .p-prose { font-size: 14.5px; line-height: 1.68; color: var(--ink); }
@@ -553,7 +564,7 @@ main {
 
 .p-dates { display: flex; flex-wrap: wrap; gap: 6px; }
 .p-date {
-  font-size: 12.5px; font-variant-numeric: tabular-nums; padding: 5px 10px;
+  font-family: var(--mono); font-size: 11.5px; font-variant-numeric: tabular-nums; padding: 5px 10px;
   border-radius: 999px; background: var(--bg-sunk); color: var(--ink-2); font-weight: 500;
 }
 .p-date.is-next { background: var(--accent-soft); color: var(--accent-ink); font-weight: 600; }
@@ -623,7 +634,7 @@ main {
 .sub-head { margin: 0 0 12px; }
 .sub-head-gap { margin-top: 34px; }
 .sub-head h3 {
-  font-size: 11px; text-transform: uppercase; letter-spacing: .1em;
+  font-family: var(--mono); font-size: 10px; text-transform: uppercase; letter-spacing: .1em;
   color: var(--ink-3); font-weight: 700;
 }
 .sub-head p { font-size: 13px; color: var(--ink-3); margin-top: 3px; }
@@ -646,7 +657,7 @@ main {
   background: var(--bg-raise); border: 1px solid var(--line); border-radius: var(--radius);
 }
 .co-label {
-  font-size: 11px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase;
+  font-family: var(--mono); font-size: 10px; font-weight: 600; letter-spacing: .1em; text-transform: uppercase;
   color: var(--ink-3); margin-right: 2px;
 }
 .co-pill {
@@ -656,7 +667,7 @@ main {
   transition: border-color .15s, background .15s;
 }
 .co-pill:hover { border-color: var(--accent); background: var(--accent-soft); }
-.co-range { font-size: 11px; color: var(--ink-3); font-variant-numeric: tabular-nums; }
+.co-range { font-family: var(--mono); font-size: 10.5px; color: var(--ink-3); font-variant-numeric: tabular-nums; }
 
 /* Panel extras */
 .fv-sub { color: var(--ink-3); font-size: 13px; }
@@ -692,8 +703,8 @@ main {
   padding: clamp(32px, 5vw, 52px) var(--pad);
 }
 .ref-title {
-  font-family: var(--serif); font-weight: 400; font-size: clamp(22px, 3.6vw, 28px);
-  letter-spacing: -0.01em;
+  font-family: var(--display); font-weight: 700; font-size: clamp(19px, 3vw, 24px);
+  letter-spacing: -0.025em;
 }
 .ref-lede { color: var(--ink-3); font-size: 13.5px; margin-top: 5px; margin-bottom: 20px; max-width: 58ch; }
 
@@ -715,7 +726,7 @@ main {
 .ref-block[open] > summary::before { transform: rotate(45deg); }
 .ref-block > summary:hover { color: var(--accent); }
 .ref-count {
-  margin-left: auto; font-size: 11.5px; font-weight: 600; color: var(--ink-3);
+  margin-left: auto; font-family: var(--mono); font-size: 10.5px; font-weight: 500; color: var(--ink-3);
   background: var(--bg-raise); border: 1px solid var(--line);
   padding: 1px 8px; border-radius: 999px; font-variant-numeric: tabular-nums;
 }
