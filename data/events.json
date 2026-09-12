@@ -1,0 +1,2045 @@
+{
+  "meta": {
+    "title": "Richmond Events",
+    "place": "Richmond, British Columbia",
+    "tagline": "Everything worth showing up for in Richmond BC — dated events and standing weeklies, in one place.",
+    "timezone": "America/Vancouver",
+    "timezoneNote": "All times are America/Vancouver (PDT until Nov 1, 2026, PST after).",
+    "compiled": "2026-09-11",
+    "coverage": {
+      "from": "2026-09-11",
+      "to": "2026-12-31"
+    },
+    "geographyNote": "Richmond, BC, Canada (Metro Vancouver). Not Richmond VA, Richmond CA, Richmond Hill ON, or Richmond upon Thames UK."
+  },
+  "events": [
+    {
+      "id": "r1-src-wed",
+      "kind": "recurring",
+      "title": "Steveston Run Crew — Wednesday",
+      "short": "Steveston Run Crew",
+      "category": "Running",
+      "tags": [
+        "free",
+        "running",
+        "social",
+        "core"
+      ],
+      "cost": "Free",
+      "free": true,
+      "summary": "5–10 km with all paces, rain or shine. The best night for a first-timer.",
+      "description": "A free community run of **5–10 km** that welcomes every pace and level, and goes ahead rain or shine.\n\nLed by lululemon Richmond Centre ambassadors — coach Rachel and ambassador Dean. Of the crew's two weekly runs, Wednesday is the one to pick if you've never come before.",
+      "venue": {
+        "name": "Steveston Hub parking lot",
+        "address": "3551 Moncton St, Richmond BC"
+      },
+      "recurrence": {
+        "freq": "weekly",
+        "byDay": [
+          "WE"
+        ],
+        "start": "18:00",
+        "durationNote": "about 60–75 minutes"
+      },
+      "links": [
+        {
+          "label": "@stvstnruncrew on Instagram",
+          "url": "https://www.instagram.com/stvstnruncrew/"
+        },
+        {
+          "label": "Strava club — full weekly schedule",
+          "url": "https://www.strava.com/clubs/steveston-run-crew-520129"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/StevestonRunCrew/"
+        },
+        {
+          "label": "RaceGuide club profile",
+          "url": "https://raceguide.ca/clubs/steveston-run-crew/"
+        }
+      ]
+    },
+    {
+      "id": "r2-src-sun",
+      "kind": "recurring",
+      "title": "Steveston Run Crew — SRC Sundays",
+      "short": "SRC Sundays",
+      "category": "Running",
+      "tags": [
+        "free",
+        "running",
+        "social"
+      ],
+      "cost": "Free",
+      "free": true,
+      "summary": "The early Sunday session, out of Minoru Centre for Active Living.",
+      "description": "The Steveston Run Crew's second weekly run — an early start from the Minoru Centre for Active Living.\n\nThe crew posts the current week's route and pace groups to its Strava club, which is the most reliable place to check before heading out.",
+      "venue": {
+        "name": "Minoru Centre for Active Living",
+        "address": "7191 Granville Ave, Richmond BC"
+      },
+      "recurrence": {
+        "freq": "weekly",
+        "byDay": [
+          "SU"
+        ],
+        "start": "07:30"
+      },
+      "links": [
+        {
+          "label": "Strava club — full weekly schedule",
+          "url": "https://www.strava.com/clubs/steveston-run-crew-520129"
+        },
+        {
+          "label": "@stvstnruncrew on Instagram",
+          "url": "https://www.instagram.com/stvstnruncrew/"
+        }
+      ]
+    },
+    {
+      "id": "r3-parkrun",
+      "kind": "recurring",
+      "title": "Richmond Olympic parkrun",
+      "short": "parkrun 5K",
+      "category": "Running",
+      "tags": [
+        "free",
+        "running",
+        "timed",
+        "core"
+      ],
+      "cost": "Free",
+      "free": true,
+      "summary": "Free weekly timed 5K along the river. Register once, then just turn up.",
+      "description": "A **free weekly timed 5K** open to all abilities — run it, jog it, or walk it.\n\nRegistration is a **one-time** thing: sign up online, print or save your barcode, and after that you simply show up on any Saturday. Bring the barcode if you want a time recorded.\n\nThe course runs along the pathway beside River Road near Cambie Street.",
+      "venue": {
+        "name": "Pathway along River Road near Cambie Street",
+        "address": "River Rd & Cambie Rd, Richmond BC"
+      },
+      "recurrence": {
+        "freq": "weekly",
+        "byDay": [
+          "SA"
+        ],
+        "start": "09:00"
+      },
+      "links": [
+        {
+          "label": "Richmond Olympic parkrun — official",
+          "url": "https://www.parkrun.ca/richmondolympic/"
+        },
+        {
+          "label": "RunGuides listing",
+          "url": "https://www.runguides.com/event/14054/richmond-olympic-parkrun"
+        }
+      ]
+    },
+    {
+      "id": "r4-arcteryx",
+      "kind": "recurring",
+      "title": "Arc'teryx Run Club",
+      "short": "Arc'teryx Run Club",
+      "category": "Running",
+      "tags": [
+        "free",
+        "running",
+        "social"
+      ],
+      "cost": "Free",
+      "free": true,
+      "summary": "About 8 km at an easy pace through Richmond streets, from the Arc'teryx store.",
+      "description": "An easy-paced **~8 km** loop through Richmond streets, starting and finishing at the Arc'teryx store in Richmond Centre.\n\nAll running levels welcome. Led by run ambassador Tim Lee.",
+      "venue": {
+        "name": "Arc'teryx, CF Richmond Centre",
+        "address": "6551 No. 3 Rd, Richmond BC"
+      },
+      "recurrence": {
+        "freq": "weekly",
+        "byDay": [
+          "MO"
+        ],
+        "start": "18:00"
+      },
+      "links": [
+        {
+          "label": "Richmond run clubs directory (Icebreaker 8K)",
+          "url": "https://icebreaker8k.ca/race-info/richmond-run-clubs/"
+        }
+      ]
+    },
+    {
+      "id": "r5-kwantlen-market",
+      "kind": "recurring",
+      "title": "Kwantlen Farmers Market",
+      "short": "Kwantlen Market",
+      "category": "Markets",
+      "tags": [
+        "free",
+        "market",
+        "food",
+        "core"
+      ],
+      "cost": "Free entry",
+      "free": true,
+      "summary": "The only Richmond farmers market that runs into winter. Tuesdays through Dec 22.",
+      "description": "Local produce, gourmet foods, baked goods and handmade crafts, set up outside the Brighouse Library and Cultural Centre. Leashed pets are welcome.\n\nNotable for being **the only Richmond farmers market operating into winter** — it runs every Tuesday until December 22, long after the Steveston market closes for the season.",
+      "venue": {
+        "name": "Richmond Brighouse Library & Cultural Centre",
+        "address": "7700 Minoru Gate, Richmond BC"
+      },
+      "recurrence": {
+        "freq": "weekly",
+        "byDay": [
+          "TU"
+        ],
+        "start": "11:00",
+        "end": "16:00",
+        "from": "2026-05-05",
+        "until": "2026-12-22",
+        "seasonNote": "Season runs May 5 – Dec 22, 2026."
+      },
+      "links": [
+        {
+          "label": "City of Richmond event page",
+          "url": "https://www.richmond.ca/culture/calendar/search/Event.aspx?EventID=19030"
+        },
+        {
+          "label": "Tourism Richmond listing",
+          "url": "https://www.visitrichmondbc.com/calendar-events/kwantlen-farmers-market/"
+        }
+      ]
+    },
+    {
+      "id": "r6-zodiac-karaoke",
+      "kind": "recurring",
+      "title": "Zodiac Bar Karaoke Night",
+      "short": "Zodiac Karaoke",
+      "category": "Nightlife",
+      "tags": [
+        "free",
+        "karaoke",
+        "nightlife",
+        "core"
+      ],
+      "cost": "Free to sing",
+      "free": true,
+      "summary": "Free singing with a live backing band on Alexandra Road. Doors 6:30pm, start 7pm.",
+      "description": "Live-band karaoke — you sing, a band backs you. Billed as **\"Sing for FREE\"**, with light meals and affordable drinks available, and promotion in both English and Chinese.\n\nReserve by Instagram DM; group bookings are welcome.\n\n> **Heads up:** Zodiac Bar has no confirmed website. Every detail here comes from a promotional flyer — confirm by phone or DM before you build a night around it.",
+      "venue": {
+        "name": "Zodiac Bar",
+        "address": "8191 Alexandra Rd, Richmond BC"
+      },
+      "recurrence": {
+        "freq": "weekly",
+        "byDay": [
+          "WE"
+        ],
+        "start": "19:00",
+        "doors": "18:30"
+      },
+      "caution": "No official website confirmed. Details come from a promotional flyer — verify before relying on it.",
+      "links": []
+    },
+    {
+      "id": "r7-trues-club",
+      "kind": "recurring",
+      "title": "Trues Club — Private Karaoke Rooms",
+      "short": "Trues Club karaoke",
+      "category": "Nightlife",
+      "tags": [
+        "karaoke",
+        "nightlife"
+      ],
+      "cost": "$25/person (private room)",
+      "free": false,
+      "summary": "All-you-can-sing private rooms, weekend afternoons into the evening.",
+      "description": "**$25 per person** for an all-you-can-sing private room, or free karaoke out in the lounge with a **$20 minimum spend** per person. Food and drink combos run $20.\n\nRoom sizes: small seats 7–10, medium 12–18, large 20–25.\n\n**Reservations are required.**",
+      "venue": {
+        "name": "Trues Club / Trues Tea Lounge",
+        "address": "180-8400 Alexandra Rd, Richmond BC"
+      },
+      "recurrence": {
+        "freq": "weekly",
+        "byDay": [
+          "SA",
+          "SU"
+        ],
+        "start": "14:00",
+        "end": "20:00"
+      },
+      "contact": [
+        {
+          "label": "Email",
+          "value": "Flamebar26@gmail.com"
+        }
+      ],
+      "links": [
+        {
+          "label": "@trues_tea_lounge on Instagram",
+          "url": "https://www.instagram.com/trues_tea_lounge/"
+        }
+      ]
+    },
+    {
+      "id": "r8-lansdowne-garden",
+      "kind": "recurring",
+      "title": "Lansdowne Food Garden — Free Gardening Workshops",
+      "short": "Garden workshop",
+      "category": "Community",
+      "tags": [
+        "free",
+        "workshop",
+        "outdoors"
+      ],
+      "cost": "Free",
+      "free": true,
+      "summary": "A free hour in the mall's food garden, Thursday afternoons through Oct 29.",
+      "description": "A free weekly gardening workshop in the Lansdowne Centre food garden.\n\nThe 2026 season runs **June 18 through October 29** — after that it stops for the winter.",
+      "venue": {
+        "name": "Lansdowne Centre",
+        "address": "5300 No. 3 Rd, Richmond BC V6X 2X9"
+      },
+      "recurrence": {
+        "freq": "weekly",
+        "byDay": [
+          "TH"
+        ],
+        "start": "15:30",
+        "end": "16:30",
+        "from": "2026-06-18",
+        "until": "2026-10-29",
+        "seasonNote": "Season runs Jun 18 – Oct 29, 2026."
+      },
+      "links": [
+        {
+          "label": "City of Richmond event page",
+          "url": "https://www.richmond.ca/culture/calendar/search/Event.aspx?EventID=19064"
+        },
+        {
+          "label": "Tourism Richmond listing",
+          "url": "https://www.visitrichmondbc.com/calendar-events/lansdowne-centre-food-garden-free-weekly-gardening-workshops-every-thursday/"
+        }
+      ]
+    },
+    {
+      "id": "r9-lululemon",
+      "kind": "recurring",
+      "title": "lululemon Richmond Centre — In-store yoga & run club",
+      "short": "lululemon yoga & run",
+      "category": "Fitness",
+      "tags": [
+        "free",
+        "yoga",
+        "running"
+      ],
+      "cost": "Typically free",
+      "free": true,
+      "unverified": true,
+      "unverifiedNote": "Schedule varies and is not confirmed. Check the store's social accounts for the current week.",
+      "summary": "In-store yoga classes and a run club — schedule varies week to week.",
+      "description": "The Richmond Centre store runs in-store yoga classes, and the same store leads the Steveston Run Crew.\n\n**No fixed schedule is confirmed.** Check the store's socials for the current week rather than assuming a time.",
+      "venue": {
+        "name": "lululemon, CF Richmond Centre",
+        "address": "6551 No. 3 Rd, Richmond BC"
+      },
+      "recurrence": {
+        "text": "Varies — check store socials"
+      },
+      "links": []
+    },
+    {
+      "id": "r10-oval-badminton",
+      "kind": "recurring",
+      "title": "Richmond Olympic Oval — Drop-In Badminton",
+      "short": "Oval badminton",
+      "category": "Sport",
+      "tags": [
+        "badminton",
+        "drop-in"
+      ],
+      "cost": "Drop-in fee",
+      "free": false,
+      "unverified": true,
+      "unverifiedNote": "Suspended over summer 2026 for camps and returning in fall — exact times not confirmed. Check the Oval's drop-in schedule.",
+      "summary": "Paused over summer 2026 for camps, returning in fall. Check the drop-in schedule.",
+      "description": "Drop-in badminton at the Oval was **suspended over summer 2026** to make room for camps, and is returning in the fall.\n\nTimes are not confirmed — check the Oval's live drop-in schedule before going.",
+      "venue": {
+        "name": "Richmond Olympic Oval",
+        "address": "6111 River Rd, Richmond BC"
+      },
+      "recurrence": {
+        "text": "Returning in fall — check schedule"
+      },
+      "links": [
+        {
+          "label": "Drop-in badminton page",
+          "url": "https://richmondoval.ca/drop_ins/drop-in-badminton/"
+        },
+        {
+          "label": "Full drop-in schedule",
+          "url": "https://richmondoval.ca/sport/drop-in/"
+        }
+      ]
+    },
+    {
+      "id": "r11-oval-dropins",
+      "kind": "recurring",
+      "title": "Richmond Olympic Oval — Climbing wall & court drop-ins",
+      "short": "Oval drop-ins",
+      "category": "Sport",
+      "tags": [
+        "climbing",
+        "drop-in",
+        "basketball",
+        "volleyball"
+      ],
+      "cost": "Drop-in fee",
+      "free": false,
+      "unverified": true,
+      "unverifiedNote": "Drop-in times vary by activity and season — see the Oval's schedule.",
+      "summary": "Metro Vancouver's tallest climbing wall, six hardwood courts, two ice rinks and two tracks.",
+      "description": "The Oval's drop-in program covers a lot of ground:\n\n- **Metro Vancouver's tallest climbing wall**\n- Six hardwood sport courts for pickup basketball and volleyball\n- Two ice rinks\n- Two running tracks\n- A rowing tank and table tennis\n\nTimes shift by activity and season, so check the live schedule.",
+      "venue": {
+        "name": "Richmond Olympic Oval",
+        "address": "6111 River Rd, Richmond BC"
+      },
+      "recurrence": {
+        "text": "Varies by activity — see drop-in schedule"
+      },
+      "links": [
+        {
+          "label": "Oval drop-in schedule",
+          "url": "https://richmondoval.ca/sport/drop-in/"
+        },
+        {
+          "label": "Richmond Olympic Oval",
+          "url": "https://richmondoval.ca/"
+        }
+      ]
+    },
+    {
+      "id": "r12-public-art-walks",
+      "kind": "recurring",
+      "title": "Public Art Walking Tours",
+      "short": "Public art walk",
+      "category": "Arts",
+      "tags": [
+        "free",
+        "art",
+        "walking"
+      ],
+      "cost": "Free",
+      "free": true,
+      "unverified": true,
+      "unverifiedNote": "Listed as \"multiple dates, various locations\" — no confirmed schedule.",
+      "summary": "Free guided walks through Richmond's public art collection — dates vary.",
+      "description": "Free walking tours of Richmond's public art, offered on **multiple dates at various locations**.\n\nNo confirmed schedule — use the city's explore page to find the next one, or self-guide from the collection map.",
+      "venue": {
+        "name": "Various locations",
+        "address": "Richmond BC"
+      },
+      "recurrence": {
+        "text": "Multiple dates — check city listings"
+      },
+      "links": [
+        {
+          "label": "Explore public art",
+          "url": "https://www.richmond.ca/culture/howartworks/publicart/explore.htm"
+        },
+        {
+          "label": "Public art collection map",
+          "url": "https://www.richmond.ca/culture/howartworks/publicart/collection/Default.aspx"
+        }
+      ]
+    },
+    {
+      "id": "r13-drive-in",
+      "kind": "recurring",
+      "status": "ended",
+      "title": "Lansdowne Free Outdoor Drive-In Movies",
+      "short": "Drive-in movies",
+      "category": "Film",
+      "tags": [
+        "free",
+        "film",
+        "seasonal"
+      ],
+      "cost": "Free",
+      "free": true,
+      "summary": "Season ended Sep 2, 2026. Returns around summer 2027.",
+      "description": "Free outdoor movies in the Lansdowne Centre parking lot on Wednesday evenings — entry at 7:00 PM, film at sunset. First come, first served.\n\nIt isn't car-only: there's a **pedestrian viewing area at the front**, so bring a blanket, picnic mat or camping chairs. Bring a **portable FM radio** for the audio. The audience votes on the lineup.\n\n**The 2026 season ended September 2.** Re-check around June 2027.",
+      "venue": {
+        "name": "Lansdowne Centre parking lot",
+        "address": "5300 No. 3 Rd, Richmond BC V6X 2X9"
+      },
+      "recurrence": {
+        "freq": "weekly",
+        "byDay": [
+          "WE"
+        ],
+        "start": "19:00",
+        "until": "2026-09-02",
+        "text": "Wednesdays in summer — 2026 season ended Sep 2"
+      },
+      "links": [
+        {
+          "label": "Lansdowne Centre",
+          "url": "https://lansdowne-centre.com/"
+        }
+      ]
+    },
+    {
+      "id": "d-south-arm-swap",
+      "kind": "dated",
+      "title": "South Arm's Swap Meet",
+      "short": "South Arm Swap Meet",
+      "category": "Community",
+      "tags": [
+        "free",
+        "market"
+      ],
+      "cost": "Free",
+      "free": true,
+      "date": "2026-09-12",
+      "time": {
+        "start": "10:00",
+        "end": "14:00"
+      },
+      "summary": "Community swap meet at South Arm Community Centre.",
+      "description": "A community swap meet at South Arm Community Centre — free to attend.",
+      "venue": {
+        "name": "South Arm Community Centre",
+        "address": "8880 Williams Rd, Richmond BC"
+      },
+      "links": [
+        {
+          "label": "City of Richmond event page",
+          "url": "https://www.richmond.ca/culture/calendar/search/Event.aspx?EventID=19114"
+        }
+      ]
+    },
+    {
+      "id": "d-wings-over-iona",
+      "kind": "dated",
+      "title": "Wings Over Iona",
+      "short": "Wings Over Iona",
+      "category": "Nature",
+      "tags": [
+        "free",
+        "family",
+        "birding",
+        "outdoors"
+      ],
+      "cost": "Free",
+      "free": true,
+      "date": "2026-09-12",
+      "time": {
+        "start": "11:00",
+        "end": "14:00"
+      },
+      "extraTimes": [
+        {
+          "label": "Guided bird walk (paid, register separately)",
+          "start": "08:30",
+          "end": "10:30"
+        }
+      ],
+      "summary": "Fall migration of shorebirds, songbirds and waterfowl, with bird banding demonstrations.",
+      "description": "A family event built around the **fall migration** — shorebirds, songbirds and waterfowl moving through Iona.\n\nIncludes **bird banding demonstrations**.\n\nThe main event (11:00 AM – 2:00 PM) is free. A **guided bird walk runs earlier, 8:30–10:30 AM**, is paid, and requires separate registration.",
+      "venue": {
+        "name": "Iona Beach Regional Park",
+        "address": "900 Ferguson Rd, Richmond BC V7B 1W7"
+      },
+      "links": [
+        {
+          "label": "City of Richmond event page",
+          "url": "https://www.richmond.ca/culture/calendar/search/Event.aspx?EventID=19110"
+        },
+        {
+          "label": "Tourism Richmond listing",
+          "url": "https://www.visitrichmondbc.com/calendar-events/wings-over-iona-2026/"
+        }
+      ]
+    },
+    {
+      "id": "d-curators-tours",
+      "kind": "dated",
+      "title": "Curator's Tours — English & Japanese",
+      "short": "Curator's Tours",
+      "category": "Arts",
+      "tags": [
+        "free",
+        "art",
+        "gallery"
+      ],
+      "cost": "Free",
+      "free": true,
+      "date": "2026-09-12",
+      "time": {
+        "start": "13:00",
+        "end": "15:00"
+      },
+      "extraTimes": [
+        {
+          "label": "English tour",
+          "start": "13:00",
+          "end": "14:00"
+        },
+        {
+          "label": "Japanese tour",
+          "start": "14:00",
+          "end": "15:00"
+        }
+      ],
+      "summary": "Two free curator-led tours at Richmond Art Gallery — English at 1pm, Japanese at 2pm.",
+      "description": "Free curator-led tours at the Richmond Art Gallery, offered in two languages back to back:\n\n- **English** — 1:00–2:00 PM\n- **Japanese** — 2:00–3:00 PM",
+      "venue": {
+        "name": "Richmond Art Gallery",
+        "address": "7700 Minoru Gate, Richmond BC"
+      },
+      "links": [
+        {
+          "label": "City of Richmond event page",
+          "url": "https://www.richmond.ca/culture/calendar/search/Event.aspx?EventID=19130"
+        }
+      ]
+    },
+    {
+      "id": "d-indigenous-storytelling",
+      "kind": "dated",
+      "title": "Celebrating Indigenous Peoples: Storytelling & Culture",
+      "short": "Indigenous Storytelling",
+      "category": "Community",
+      "tags": [
+        "culture",
+        "family"
+      ],
+      "cost": "Not listed",
+      "date": "2026-09-12",
+      "time": {
+        "start": "13:00",
+        "openEnded": true
+      },
+      "summary": "Storytelling and cultural programming at City Centre Community Centre, from 1pm.",
+      "description": "Storytelling and cultural programming celebrating Indigenous Peoples, starting at **1:00 PM**. An end time isn't published.",
+      "venue": {
+        "name": "City Centre Community Centre",
+        "address": "Richmond BC"
+      },
+      "links": [
+        {
+          "label": "AllEvents — Richmond BC",
+          "url": "https://allevents.in/richmond-bc/all"
+        }
+      ]
+    },
+    {
+      "id": "d-sfam-final",
+      "kind": "dated",
+      "title": "Steveston Farmers & Artisans Market — final date of the season",
+      "short": "Steveston Market (final)",
+      "category": "Markets",
+      "tags": [
+        "free",
+        "market",
+        "food",
+        "core"
+      ],
+      "cost": "Free entry",
+      "free": true,
+      "flag": "Last market of the 2026 season",
+      "date": "2026-09-13",
+      "time": {
+        "start": "10:00",
+        "end": "15:30"
+      },
+      "summary": "Roughly 60 vendor booths at Garry Point Park — and the last one until spring.",
+      "description": "Around **60 vendor booths** of growers, artists and craftspeople in the Garry Point Park parking lot, run by volunteers under the Richmond Agricultural and Industrial Society.\n\nThe market runs biweekly on Sundays through the season. **2026 dates were:** May 10 & 24, Jun 14 & 28, Jul 12 & 26, Aug 2, 16 & 30, and **Sep 13 — the final one.** It returns around May 2027.",
+      "venue": {
+        "name": "Garry Point Park parking lot",
+        "address": "12011 Seventh Ave, Richmond BC V7E 4X2"
+      },
+      "links": [
+        {
+          "label": "SFAM official site",
+          "url": "https://sfam.ca/"
+        },
+        {
+          "label": "BC Farmers' Market Trail",
+          "url": "https://bcfarmersmarkettrail.com/market/steveston-farmers-and-artisans-market/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/StevestonFarmersandArtisansMarket/"
+        }
+      ]
+    },
+    {
+      "id": "d-farm-fest",
+      "kind": "dated",
+      "title": "Richmond Farm Fest",
+      "short": "Farm Fest",
+      "category": "Festivals",
+      "tags": [
+        "free",
+        "family",
+        "food",
+        "outdoors"
+      ],
+      "cost": "Free",
+      "free": true,
+      "date": "2026-09-13",
+      "time": {
+        "start": "11:00",
+        "end": "16:00"
+      },
+      "summary": "Free farm festival on the Garden City Lands at the KPU farm.",
+      "description": "A free festival on the Garden City Lands, at the Kwantlen Polytechnic University farm.",
+      "venue": {
+        "name": "Garden City Lands / KPU Farm",
+        "address": "Richmond BC"
+      },
+      "links": [
+        {
+          "label": "City of Richmond — Farm Fest",
+          "url": "https://www.richmond.ca/culture/calendar/special-events/farmfest.htm"
+        },
+        {
+          "label": "Event listing (19108)",
+          "url": "https://www.richmond.ca/culture/calendar/search/Event.aspx?EventID=19108"
+        },
+        {
+          "label": "Event listing (19122)",
+          "url": "https://www.richmond.ca/culture/calendar/search/Event.aspx?EventID=19122"
+        }
+      ]
+    },
+    {
+      "id": "d-forever-young-8k",
+      "kind": "dated",
+      "title": "Forever Young 8K",
+      "short": "Forever Young 8K",
+      "category": "Running",
+      "tags": [
+        "running",
+        "race",
+        "ticketed"
+      ],
+      "cost": "Paid registration",
+      "free": false,
+      "date": "2026-09-13",
+      "time": {
+        "start": "09:00",
+        "end": "12:00"
+      },
+      "summary": "8K road race out of the Richmond Olympic Oval.",
+      "description": "An 8K race starting and finishing at the Richmond Olympic Oval. Paid registration.",
+      "venue": {
+        "name": "Richmond Olympic Oval",
+        "address": "6111 River Rd, Richmond BC"
+      },
+      "links": [
+        {
+          "label": "City of Richmond event page",
+          "url": "https://www.richmond.ca/culture/calendar/search/Event.aspx?EventID=19073"
+        }
+      ]
+    },
+    {
+      "id": "d-bc-culture-days",
+      "kind": "dated",
+      "span": true,
+      "title": "BC Culture Days",
+      "short": "BC Culture Days",
+      "category": "Arts",
+      "tags": [
+        "free",
+        "art",
+        "culture",
+        "province-wide"
+      ],
+      "cost": "Free",
+      "free": true,
+      "date": "2026-09-18",
+      "endDate": "2026-10-04",
+      "summary": "Seventeen days of free cultural programming across Richmond and the province.",
+      "description": "A province-wide run of free cultural programming, with Richmond events at various locations across the city.\n\nRuns **September 18 through October 4**. Individual event times are published on the city's Culture Days page.",
+      "venue": {
+        "name": "Various locations",
+        "address": "Richmond BC and province-wide"
+      },
+      "links": [
+        {
+          "label": "City of Richmond — Culture Days",
+          "url": "https://www.richmond.ca/culture/calendar/special-events/culturedays.htm"
+        }
+      ]
+    },
+    {
+      "id": "d-big-pirate-run",
+      "kind": "dated",
+      "title": "Big Pirate Run",
+      "short": "Big Pirate Run",
+      "category": "Running",
+      "tags": [
+        "running",
+        "family",
+        "costume"
+      ],
+      "cost": "Not listed",
+      "unverified": true,
+      "unverifiedNote": "Start time is not confirmed. Check the Tourism Richmond events calendar before planning around it.",
+      "date": "2026-09-19",
+      "summary": "Themed fun run at Garry Point Park, from the Big Fun Run Series.",
+      "organizer": "Big Fun Run Series",
+      "description": "A pirate-themed fun run at Garry Point Park, part of the Big Fun Run Series.\n\n**The start time is not confirmed.** Check Tourism Richmond's events calendar before building your day around it.",
+      "venue": {
+        "name": "Garry Point Park",
+        "address": "12011 Seventh Ave, Richmond BC V7E 4X2"
+      },
+      "links": [
+        {
+          "label": "Tourism Richmond — Events",
+          "url": "https://www.visitrichmondbc.com/events/"
+        }
+      ]
+    },
+    {
+      "id": "d-london-farm-fest",
+      "kind": "dated",
+      "title": "London Farm Country Fest",
+      "short": "London Farm Country Fest",
+      "category": "Festivals",
+      "tags": [
+        "family",
+        "heritage",
+        "outdoors"
+      ],
+      "cost": "Not listed",
+      "unverified": true,
+      "unverifiedNote": "Time is not confirmed — check the London Heritage Farm page.",
+      "date": "2026-09-19",
+      "summary": "Country fest at London Heritage Farm — time unconfirmed.",
+      "description": "A country festival at London Heritage Farm, the city's heritage farm site on Dyke Road.\n\n**No confirmed time yet** — check the city's London Farm page.",
+      "venue": {
+        "name": "London Heritage Farm",
+        "address": "6511 Dyke Rd, Richmond BC"
+      },
+      "links": [
+        {
+          "label": "City of Richmond — London Heritage Farm",
+          "url": "https://www.richmond.ca/culture/sites/londonfarm.htm"
+        }
+      ]
+    },
+    {
+      "id": "d-divers-catch",
+      "kind": "dated",
+      "title": "Divers' Catch Festival",
+      "short": "Divers' Catch Festival",
+      "category": "Festivals",
+      "tags": [
+        "heritage",
+        "family",
+        "seafood"
+      ],
+      "cost": "Not listed",
+      "unverified": true,
+      "unverifiedNote": "Time is not confirmed — check Tourism Richmond's events calendar.",
+      "date": "2026-09-19",
+      "summary": "Festival at the Gulf of Georgia Cannery National Historic Site.",
+      "description": "A festival at the Gulf of Georgia Cannery National Historic Site in Steveston.\n\n**No confirmed time yet** — check Tourism Richmond's events calendar.",
+      "venue": {
+        "name": "Gulf of Georgia Cannery National Historic Site",
+        "address": "12138 Fourth Ave, Richmond BC"
+      },
+      "links": [
+        {
+          "label": "Tourism Richmond — Events",
+          "url": "https://www.visitrichmondbc.com/events/"
+        }
+      ]
+    },
+    {
+      "id": "d-night-market-final",
+      "kind": "dated",
+      "title": "Richmond Night Market — final day of the season",
+      "short": "Night Market (final)",
+      "category": "Food",
+      "tags": [
+        "food",
+        "night-market",
+        "ticketed",
+        "core"
+      ],
+      "cost": "Paid admission",
+      "free": false,
+      "flag": "Final day of the 2026 season",
+      "date": "2026-09-20",
+      "time": {
+        "start": "19:00",
+        "end": "24:00"
+      },
+      "summary": "The last night of the season — 500+ food offerings, zipline, ferris wheel, 7pm to midnight.",
+      "description": "The closing night of the 2026 Richmond Night Market, themed **\"One World\"**. The season ran April 24 through September 20.\n\nOn site: **500+ food offerings**, 100+ retail vendors, live performances, a **600-foot SkyRush zipline** and a ferris wheel.\n\n**Practical notes:** some vendors are cash-only. Take the Canada Line to Bridgeport Station and walk — parking is limited.\n\n> **Worth verifying:** 604now labelled this the market's *\"Final Season\"*, but Tourism Richmond's official page does not say that. Treat \"last ever\" as unconfirmed.",
+      "caution": "The \"final season\" claim comes from a 604now post, not Tourism Richmond. Verify before treating Sep 20, 2026 as the permanent last day.",
+      "venue": {
+        "name": "Richmond Night Market",
+        "address": "8351 River Rd, Richmond BC V6X 1Y4"
+      },
+      "links": [
+        {
+          "label": "Tourism Richmond — event listing",
+          "url": "https://www.visitrichmondbc.com/calendar-events/richmond-night-market/"
+        },
+        {
+          "label": "Tourism Richmond — Night Market page",
+          "url": "https://www.visitrichmondbc.com/things-to-do/night-market/"
+        }
+      ]
+    },
+    {
+      "id": "d-mid-autumn-melodies",
+      "kind": "dated",
+      "title": "Mid-Autumn Melodies",
+      "short": "Mid-Autumn Melodies",
+      "category": "Music",
+      "tags": [
+        "music",
+        "culture"
+      ],
+      "cost": "Not listed",
+      "unverified": true,
+      "unverifiedNote": "Time is not confirmed, and the listing names two venues — confirm which before going.",
+      "date": "2026-09-20",
+      "summary": "Mid-Autumn concert programming at Minoru Chapel and Gateway Theatre.",
+      "description": "Mid-Autumn Festival concert programming, listed at **Minoru Chapel and Gateway Theatre**.\n\n**No confirmed time**, and the listing spans two venues — confirm which one before heading out.",
+      "venue": {
+        "name": "Minoru Chapel & Gateway Theatre",
+        "address": "Richmond BC"
+      },
+      "links": [
+        {
+          "label": "Minoru Chapel",
+          "url": "https://www.richmond.ca/culture/sites/minoruchapel.htm"
+        },
+        {
+          "label": "Gateway Theatre",
+          "url": "https://www.richmond.ca/culture/howartworks/gateway.htm"
+        }
+      ]
+    },
+    {
+      "id": "d-harvest-heritage",
+      "kind": "dated",
+      "title": "Richmond Harvest & Heritage Festival",
+      "short": "Harvest & Heritage",
+      "category": "Festivals",
+      "tags": [
+        "family",
+        "heritage",
+        "outdoors"
+      ],
+      "cost": "Not listed",
+      "date": "2026-09-25",
+      "time": {
+        "start": "10:00",
+        "openEnded": true
+      },
+      "summary": "Harvest and heritage programming at Minoru Park, from 10am.",
+      "description": "Harvest and heritage festival programming at Minoru Park, starting at **10:00 AM**. No published end time.",
+      "venue": {
+        "name": "Minoru Park",
+        "address": "Richmond BC"
+      },
+      "links": [
+        {
+          "label": "AllEvents — Richmond BC",
+          "url": "https://allevents.in/richmond-bc/all"
+        }
+      ]
+    },
+    {
+      "id": "d-mid-autumn-lansdowne",
+      "kind": "dated",
+      "span": true,
+      "title": "Mid-Autumn Festival at Lansdowne Centre",
+      "short": "Mid-Autumn Festival",
+      "category": "Festivals",
+      "tags": [
+        "free",
+        "family",
+        "culture"
+      ],
+      "cost": "Not listed",
+      "date": "2026-09-26",
+      "endDate": "2026-09-27",
+      "time": {
+        "start": "10:00",
+        "end": "19:00"
+      },
+      "summary": "Two days of Mid-Autumn programming, 10am–7pm each day.",
+      "description": "Mid-Autumn Festival programming across both days, **10:00 AM – 7:00 PM each day**.\n\n**September 26** also includes interactive **bunny yoga** and a bunny meet-and-greet.",
+      "venue": {
+        "name": "Lansdowne Centre",
+        "address": "5300 No. 3 Rd, Richmond BC V6X 2X9"
+      },
+      "links": [
+        {
+          "label": "Lansdowne Centre — Mid-Autumn Festival 2026",
+          "url": "https://lansdowne-centre.com/mid-autumn-festival-2026/"
+        }
+      ]
+    },
+    {
+      "id": "d-moon-rabbit-yoga",
+      "kind": "dated",
+      "title": "Moon Rabbit Bunny Yoga",
+      "short": "Moon Rabbit Bunny Yoga",
+      "category": "Fitness",
+      "tags": [
+        "yoga",
+        "ticketed",
+        "charity",
+        "animals"
+      ],
+      "cost": "Ticketed",
+      "free": false,
+      "date": "2026-09-26",
+      "time": {
+        "start": "11:00",
+        "end": "16:00"
+      },
+      "summary": "Yoga with rescue bunnies in 45-minute sessions. All ticket sales go to Rabbitats.",
+      "description": "Yoga with rescue bunnies, running in **45-minute sessions** between 11:00 AM and 4:00 PM.\n\n**100% of ticket sales** support the Rabbitats Rescue Society.",
+      "venue": {
+        "name": "Lansdowne Centre",
+        "address": "5300 No. 3 Rd, Richmond BC"
+      },
+      "links": [
+        {
+          "label": "Tickets on Eventbrite",
+          "url": "https://www.eventbrite.ca/e/moon-rabbit-bunny-yoga-tickets-1998506765534"
+        }
+      ]
+    },
+    {
+      "id": "d-truth-reconciliation",
+      "kind": "dated",
+      "title": "National Day for Truth & Reconciliation",
+      "short": "Truth & Reconciliation",
+      "category": "Community",
+      "tags": [
+        "free",
+        "culture",
+        "statutory"
+      ],
+      "cost": "Not listed",
+      "date": "2026-09-30",
+      "summary": "Commemorative programming at various locations across Richmond.",
+      "description": "Commemorative programming for the National Day for Truth and Reconciliation, at various locations across Richmond. See the city's page for the specific events and times.",
+      "venue": {
+        "name": "Various locations",
+        "address": "Richmond BC"
+      },
+      "links": [
+        {
+          "label": "City of Richmond — National Day for Truth & Reconciliation",
+          "url": "https://www.richmond.ca/culture/calendar/special-events/NationalDayForTruthAndReconciliation.htm"
+        }
+      ]
+    },
+    {
+      "id": "d-plein-air",
+      "kind": "dated",
+      "span": true,
+      "title": "\"A Life in Plein Air\" — Junyi Ji landscape paintings",
+      "short": "A Life in Plein Air",
+      "category": "Arts",
+      "tags": [
+        "free",
+        "art",
+        "exhibition"
+      ],
+      "cost": "Free",
+      "free": true,
+      "date": "2026-09-01",
+      "endDate": "2026-09-29",
+      "time": {
+        "start": "11:00",
+        "end": "17:00"
+      },
+      "summary": "New landscape paintings by Junyi Ji, weekdays 11am–5pm through Sep 29.",
+      "description": "An exhibition of new landscape paintings by Junyi Ji.\n\n**Hours:** Monday to Friday, 11:00 AM – 5:00 PM. **Closed September 7.**\n\nFree to visit.",
+      "hoursNote": "Mon–Fri 11:00 AM – 5:00 PM. Closed Sep 7.",
+      "exceptions": [
+        "2026-09-07"
+      ],
+      "openDays": [
+        "MO",
+        "TU",
+        "WE",
+        "TH",
+        "FR"
+      ],
+      "venue": {
+        "name": "Lipont Gallery / Vancouver Lipont Art Centre",
+        "address": "4211 No. 3 Rd, Richmond BC V6X 2C3"
+      },
+      "links": [
+        {
+          "label": "City of Richmond event page",
+          "url": "https://www.richmond.ca/culture/calendar/search/Event.aspx?EventID=19118"
+        },
+        {
+          "label": "Tourism Richmond listing",
+          "url": "https://www.visitrichmondbc.com/calendar-events/a-life-in-plein-air-new-landscape-paintings-by-junyi-ji/"
+        }
+      ]
+    },
+    {
+      "id": "d-pacific-crossings",
+      "kind": "dated",
+      "span": true,
+      "title": "\"Pacific Crossings\" exhibition",
+      "short": "Pacific Crossings",
+      "category": "Arts",
+      "tags": [
+        "free",
+        "art",
+        "exhibition"
+      ],
+      "cost": "Free",
+      "free": true,
+      "date": "2026-07-25",
+      "endDate": "2026-10-04",
+      "summary": "Free exhibition at Richmond Art Gallery, open daily through Oct 4.",
+      "description": "A free exhibition at the Richmond Art Gallery, running July 25 through October 4.\n\n**Hours:**\n\n- Monday to Friday — 10:00 AM – 6:00 PM\n- Saturday — 12:00 PM – 5:00 PM\n- Sunday — 12:00 PM – 5:00 PM",
+      "hoursNote": "Mon–Fri 10:00 AM – 6:00 PM · Sat & Sun 12:00 – 5:00 PM",
+      "venue": {
+        "name": "Richmond Art Gallery",
+        "address": "7700 Minoru Gate, Richmond BC"
+      },
+      "links": [
+        {
+          "label": "City of Richmond event page",
+          "url": "https://www.richmond.ca/culture/calendar/search/Event.aspx?EventID=19092"
+        }
+      ]
+    },
+    {
+      "id": "d-ghost-walks",
+      "kind": "dated",
+      "title": "Steveston Ghost Walks",
+      "short": "Steveston Ghost Walks",
+      "category": "Festivals",
+      "tags": [
+        "walking",
+        "halloween",
+        "heritage"
+      ],
+      "cost": "Not listed",
+      "date": "2026-10-03",
+      "time": {
+        "start": "19:30"
+      },
+      "summary": "Evening ghost walk starting from the Steveston Cafe & Hotel, 7:30pm.",
+      "description": "An evening ghost walk through Steveston, starting at **7:30 PM** from the Steveston Cafe & Hotel.",
+      "venue": {
+        "name": "The Steveston Cafe & Hotel",
+        "address": "Steveston Village, Richmond BC"
+      },
+      "links": [
+        {
+          "label": "AllEvents — Steveston",
+          "url": "https://allevents.in/richmond-bc/steveston"
+        }
+      ]
+    },
+    {
+      "id": "d-secret-ingredients",
+      "kind": "dated",
+      "title": "Secret Ingredients",
+      "short": "Secret Ingredients",
+      "category": "Theatre",
+      "tags": [
+        "theatre",
+        "ticketed",
+        "food"
+      ],
+      "cost": "Ticketed",
+      "free": false,
+      "date": "2026-10-14",
+      "endDate": "2026-10-17",
+      "performances": [
+        {
+          "date": "2026-10-14",
+          "start": "19:30"
+        },
+        {
+          "date": "2026-10-15",
+          "start": "19:30"
+        },
+        {
+          "date": "2026-10-16",
+          "start": "19:30"
+        },
+        {
+          "date": "2026-10-17",
+          "start": "13:30"
+        }
+      ],
+      "summary": "A theatrical cake tasting built from real stories the public submits beforehand.",
+      "description": "A **theatrical cake tasting** by Richmond's Keely Rois O'Brien, exploring human relationships.\n\nThe show is built from real-life circumstances submitted by the public through an online form **before** the performance — so the material is different each run.\n\n**Performance times:**\n\n- Wed Oct 14 — 7:30 PM\n- Thu Oct 15 — 7:30 PM\n- Fri Oct 16 — 7:30 PM\n- Sat Oct 17 — **1:30 PM matinee**",
+      "venue": {
+        "name": "Gateway Theatre",
+        "address": "6500 Gilbert Rd, Richmond BC V7C 3V4"
+      },
+      "links": [
+        {
+          "label": "Tourism Richmond — Secret Ingredients",
+          "url": "https://www.visitrichmondbc.com/calendar-events/secret-ingredients/"
+        }
+      ]
+    },
+    {
+      "id": "d-queer-craft-club",
+      "kind": "dated",
+      "title": "Queer Craft Club: Junk Journaling",
+      "short": "Queer Craft Club",
+      "category": "Community",
+      "tags": [
+        "free",
+        "craft",
+        "lgbtq",
+        "rsvp"
+      ],
+      "cost": "Free",
+      "free": true,
+      "date": "2026-11-09",
+      "time": {
+        "start": "13:00",
+        "end": "16:00"
+      },
+      "summary": "Free junk journaling afternoon — materials and snacks provided, RSVP required.",
+      "description": "A free junk-journaling afternoon at the Cultural Centre Annex. **Materials and snacks are provided.**\n\n**RSVP is required** — the organizer link is in the RCRG listing.\n\nPresented by Richmond Cares Richmond Gives with Neighbourhood Small Grants Richmond.",
+      "organizer": "Richmond Cares Richmond Gives (RCRG) with Neighbourhood Small Grants Richmond",
+      "venue": {
+        "name": "Richmond Cultural Centre Annex",
+        "address": "7700 Minoru Gate, Richmond BC"
+      },
+      "links": [
+        {
+          "label": "RCRG community events calendar",
+          "url": "https://www.rcrg.org/communityeventscalendar"
+        }
+      ]
+    },
+    {
+      "id": "d-ola-dada",
+      "kind": "dated",
+      "title": "Ola Dada comedy show",
+      "short": "Ola Dada comedy",
+      "category": "Comedy",
+      "tags": [
+        "comedy",
+        "ticketed"
+      ],
+      "cost": "Ticketed",
+      "free": false,
+      "unverified": true,
+      "unverifiedNote": "Both the time and the venue are unconfirmed — the listing says only Richmond BC / Metro Vancouver. Check the Showpass page.",
+      "date": "2026-11-14",
+      "summary": "Stand-up about life as a Richmond resident. Time and venue still unconfirmed.",
+      "description": "A stand-up show built on the comedian's experience as a **Richmond resident**.\n\nOla Dada is a verified comedian with credits across Apple TV, NBC, Just For Laughs, Canada's Got Talent, SiriusXM Canada and CBC Comedy.\n\n**Neither the time nor the venue is confirmed** — the listing says only \"Richmond BC / Metro Vancouver\". Check Showpass for details before buying travel around it.",
+      "venue": {
+        "name": "Venue not confirmed",
+        "address": "Richmond BC / Metro Vancouver"
+      },
+      "links": [
+        {
+          "label": "Tickets on Showpass",
+          "url": "https://www.showpass.com/gcs-ola-dada/"
+        },
+        {
+          "label": "@showtime.dada on Instagram",
+          "url": "https://www.instagram.com/showtime.dada/"
+        }
+      ]
+    },
+    {
+      "id": "d-south-arm-craft-fair",
+      "kind": "dated",
+      "title": "South Arm's Christmas Craft Fair",
+      "short": "South Arm Craft Fair",
+      "category": "Markets",
+      "tags": [
+        "market",
+        "christmas",
+        "craft"
+      ],
+      "cost": "Not listed",
+      "date": "2026-11-21",
+      "time": {
+        "start": "10:00",
+        "openEnded": true
+      },
+      "summary": "Christmas craft fair at South Arm Community Centre, from 10am.",
+      "description": "A Christmas craft fair at South Arm Community Centre, starting at **10:00 AM**. No published end time.",
+      "venue": {
+        "name": "South Arm Community Centre",
+        "address": "8880 Williams Rd, Richmond BC"
+      },
+      "links": [
+        {
+          "label": "AllEvents — Richmond BC Christmas",
+          "url": "https://allevents.in/richmond-bc/christmas"
+        }
+      ]
+    },
+    {
+      "id": "d-steveston-craft-fair",
+      "kind": "dated",
+      "title": "Steveston Christmas Craft Fair",
+      "short": "Steveston Craft Fair",
+      "category": "Markets",
+      "tags": [
+        "market",
+        "christmas",
+        "craft",
+        "core"
+      ],
+      "cost": "Not listed",
+      "flag": "Bring cash — no ATM on site",
+      "date": "2026-11-28",
+      "time": {
+        "start": "11:00",
+        "openEnded": true
+      },
+      "summary": "165+ vendors of crafts, baking and jewellery. Bring cash — there is no ATM.",
+      "description": "The big one: **165+ vendors** (some sources say up to 125) selling homemade crafts, baking, jewellery and food items. There's a concession on site and a raffle.\n\n**Bring cash — there is no ATM on site.**\n\nOrganized by the Steveston Community Society; vendor registration sold out in a single day.\n\n> **Check the venue first.** Steveston Community Centre is under construction, so programs and this fair may be relocated to the Steveston Easthope Hub at 4320 Moncton St.",
+      "caution": "Steveston Community Centre is under construction — the fair may be relocated to the Steveston Easthope Hub (4320 Moncton St). Confirm the venue.",
+      "organizer": "Steveston Community Society",
+      "venue": {
+        "name": "Steveston Community Centre",
+        "address": "4111 Moncton St, Richmond BC V7E 3A8"
+      },
+      "contact": [
+        {
+          "label": "Email",
+          "value": "stevestoncraftfair@richmond.ca"
+        },
+        {
+          "label": "Phone",
+          "value": "604-238-8080"
+        }
+      ],
+      "links": [
+        {
+          "label": "Steveston Community Society",
+          "url": "https://stevestoncommunitysociety.com/special-events/"
+        },
+        {
+          "label": "Vancouver Christmas Guide",
+          "url": "https://www.vancouverchristmasguide.com/steveston-christmas-craft-fair"
+        },
+        {
+          "label": "City of Richmond event page",
+          "url": "https://www.richmond.ca/culture/calendar/search/Event.aspx?EventID=15310"
+        }
+      ]
+    },
+    {
+      "id": "d-winter-in-the-village",
+      "kind": "dated",
+      "span": true,
+      "title": "Winter in the Village",
+      "short": "Winter in the Village",
+      "category": "Seasonal",
+      "tags": [
+        "free",
+        "christmas",
+        "family",
+        "core"
+      ],
+      "cost": "Mostly free",
+      "free": true,
+      "date": "2026-12-01",
+      "endDate": "2026-12-31",
+      "summary": "All of December in Steveston: lights, Santa visits, craft markets, puppy parades.",
+      "description": "A month of seasonal programming across Steveston Village — twinkling lights, seasonal displays, free family-friendly events, waterfront strolls, Santa visits, craft markets and puppy parades.\n\nIncludes **\"Steveston Sips\"**: village-wide festive drinks, appetizers and desserts at participating merchants.\n\nMostly free. The day-by-day calendar lists what's on each date.",
+      "venue": {
+        "name": "Steveston Village",
+        "address": "Richmond BC"
+      },
+      "links": [
+        {
+          "label": "Winter in the Village",
+          "url": "https://www.visitrichmondbc.com/events/winter-in-the-village/"
+        },
+        {
+          "label": "Day-by-day event calendar",
+          "url": "https://www.visitrichmondbc.com/events/winter-in-the-village/event-calendar/"
+        }
+      ]
+    },
+    {
+      "id": "d-42nd-street",
+      "kind": "dated",
+      "span": true,
+      "title": "42nd Street",
+      "short": "42nd Street",
+      "category": "Theatre",
+      "tags": [
+        "theatre",
+        "musical",
+        "ticketed"
+      ],
+      "cost": "Ticketed",
+      "free": false,
+      "date": "2026-12-10",
+      "endDate": "2027-01-02",
+      "summary": "Gateway Theatre's holiday musical, running into the new year.",
+      "description": "The Gateway Theatre production of **42nd Street**, running December 10 through January 2.\n\nBook by Michael Stewart and Mark Bramble, music by Harry Warren, lyrics by Al Dubin.\n\nPer-performance times are on the Tourism Richmond listing.",
+      "venue": {
+        "name": "Gateway Theatre",
+        "address": "6500 Gilbert Rd, Richmond BC V7C 3V4"
+      },
+      "links": [
+        {
+          "label": "Tourism Richmond — 42nd Street",
+          "url": "https://www.visitrichmondbc.com/calendar-events/42nd-street/"
+        }
+      ]
+    },
+    {
+      "id": "d-kwantlen-final",
+      "kind": "dated",
+      "title": "Kwantlen Farmers Market — final date of the year",
+      "short": "Kwantlen Market (final)",
+      "category": "Markets",
+      "tags": [
+        "free",
+        "market",
+        "food"
+      ],
+      "cost": "Free entry",
+      "free": true,
+      "flag": "Last market date of 2026",
+      "date": "2026-12-22",
+      "time": {
+        "start": "11:00",
+        "end": "16:00"
+      },
+      "summary": "The last Kwantlen market of 2026, two days before Christmas.",
+      "description": "The final Kwantlen Farmers Market date of the year — the same Tuesday market, wrapping up its season two days before Christmas.",
+      "venue": {
+        "name": "Richmond Brighouse Library & Cultural Centre",
+        "address": "7700 Minoru Gate, Richmond BC"
+      },
+      "links": [
+        {
+          "label": "City of Richmond event page",
+          "url": "https://www.richmond.ca/culture/calendar/search/Event.aspx?EventID=19030"
+        }
+      ]
+    },
+    {
+      "id": "d-something-blue",
+      "kind": "dated",
+      "title": "Something Blue Wedding Show",
+      "short": "Something Blue Wedding Show",
+      "category": "Community",
+      "tags": [
+        "expo",
+        "wedding"
+      ],
+      "cost": "Not listed",
+      "flag": "Beyond the coverage window — listed for reference",
+      "date": "2027-02-20",
+      "time": {
+        "start": "10:30",
+        "end": "15:00"
+      },
+      "summary": "Wedding show at the Hilton Vancouver Airport — beyond the current window, kept for reference.",
+      "description": "A wedding show at the Hilton Vancouver Airport, 10:30 AM – 3:00 PM.\n\nThis falls **outside the Sep–Dec 2026 coverage window** and is listed here only for reference.",
+      "venue": {
+        "name": "Hilton Vancouver Airport",
+        "address": "5911 Minoru Blvd, Richmond BC V6X 4C7"
+      },
+      "links": [
+        {
+          "label": "Tourism Richmond listing",
+          "url": "https://www.visitrichmondbc.com/calendar-events/something-blue-wedding-show/"
+        }
+      ]
+    }
+  ],
+  "annual": [
+    {
+      "name": "Richmond Night Market",
+      "when": "Apr 24 – Sep 20, 2026",
+      "where": "8351 River Rd",
+      "note": "Labelled final season by 604now — unconfirmed by Tourism Richmond."
+    },
+    {
+      "name": "Steveston Farmers & Artisans Market",
+      "when": "May 10 – Sep 13, biweekly Sundays",
+      "where": "Garry Point Park",
+      "note": "Returns around May 2027."
+    },
+    {
+      "name": "Lansdowne drive-in movies",
+      "when": "Wednesdays, ended Sep 2",
+      "where": "Lansdowne Centre",
+      "note": "Returns around summer 2027."
+    },
+    {
+      "name": "Art Fest Canada",
+      "when": "Sep 5–6, 11:00–19:00",
+      "where": "Aberdeen Neighbourhood Park, 8331 Cambie Rd",
+      "note": "Promo code MIKELAI.",
+      "url": "https://art-fest.ca/tickets.html"
+    },
+    {
+      "name": "Hip Hop Masterclass",
+      "when": "Sep 6, 13:30",
+      "where": "Flying Dance Studios, 260-4351 No. 3 Rd",
+      "note": "Recurring format."
+    },
+    {
+      "name": "Richmond Sockeyes home opener",
+      "when": "Sep 10",
+      "where": "Minoru Arenas",
+      "note": "Junior hockey — season continues, check the schedule."
+    },
+    {
+      "name": "Queen: It's a Kinda Magic",
+      "when": "Sep 11",
+      "where": "River Rock Casino Resort"
+    },
+    {
+      "name": "Thursday Speed Dating (Richmond)",
+      "when": "Aug 27, ~19:00–21:00",
+      "where": "CNT Richmond",
+      "note": "Singles only, 25+, free drink on arrival. Recurring operator — watch for new dates.",
+      "url": "https://thursday.com/"
+    },
+    {
+      "name": "Thursday Singles Dance Night",
+      "when": "Jul 16",
+      "where": "Pandora Club, Richmond",
+      "url": "https://thursday.com/"
+    },
+    {
+      "name": "Richmond Maritime Festival",
+      "when": "Aug 22",
+      "where": "Britannia Shipyards NHS",
+      "note": "Annual."
+    },
+    {
+      "name": "Richmond Garlic Festival",
+      "when": "Aug 15",
+      "where": "2771 Westminster Hwy",
+      "note": "Annual."
+    },
+    {
+      "name": "Richmond Sunflower Festival",
+      "when": "Summer",
+      "where": "Richmond Country Farms",
+      "note": "Annual."
+    },
+    {
+      "name": "Steveston Salmon Festival",
+      "when": "Jul 1 (Canada Day)",
+      "where": "Steveston Village",
+      "note": "Canada's biggest little birthday party."
+    },
+    {
+      "name": "FreshCo Richmond Dragon Boat Festival",
+      "when": "Summer",
+      "where": "Richmond BC",
+      "note": "Annual."
+    },
+    {
+      "name": "Glean, Grow & Groove",
+      "when": "Aug 29",
+      "where": "Terra Nova Rural Park Farm Centre"
+    },
+    {
+      "name": "Bodhi Meditation Day",
+      "when": "Date varies",
+      "where": "Bodhi Meditation Centre, 8181 Cambie Rd",
+      "note": "Free cultural celebration."
+    },
+    {
+      "name": "Free Ladies Nature Walk",
+      "when": "Aug 29, 10:30, 90 min",
+      "where": "Richmond Nature Park",
+      "note": "Women only."
+    },
+    {
+      "name": "GIANT Richmond Social Ride",
+      "when": "Jul/Aug",
+      "where": "Richmond BC",
+      "note": "Intermediate cycling — check Eventbrite for new dates."
+    },
+    {
+      "name": "Richmond Tech Community Coffee Meetup",
+      "when": "Recurring",
+      "where": "Richmond BC",
+      "note": "Check Eventbrite meetups."
+    },
+    {
+      "name": "Chinese New Year at Aberdeen Centre",
+      "when": "February (LNY 2027)",
+      "where": "Aberdeen Centre",
+      "note": "Flower & Gift Fair, countdown night, cultural performances.",
+      "url": "https://www.aberdeencentre.com/en/events.php"
+    }
+  ],
+  "venues": [
+    {
+      "name": "Richmond Olympic Oval",
+      "address": "6111 River Rd",
+      "note": "Tallest climbing wall in Metro Vancouver, 6 hardwood courts, 2 ice rinks, 2 tracks, rowing tank.",
+      "url": "https://richmondoval.ca/"
+    },
+    {
+      "name": "Alexandra Road strip",
+      "address": "Alexandra Rd",
+      "note": "Zodiac Bar and Trues Club sit on the same road — Richmond's densest late-night corridor. Treat it as one destination."
+    },
+    {
+      "name": "Anna Rice Badminton Centre",
+      "address": "110-13100 Mitchell Rd, V6V 1M8",
+      "note": "Court rental only, max 6 per court, book online or by phone up to a week ahead. 48hr cancellation. Non-marking shoes. Coaching by 2x Olympian Anna Rice. Also pickleball and kids camps.",
+      "url": "https://badmintonhouse.ca/blogs/news/where-to-play-badminton-vancouver"
+    },
+    {
+      "name": "Graybar Badminton Centre",
+      "address": "6811 Graybar Rd #1002, V6W 0C7",
+      "note": "One of 9+ badminton centres in Richmond per Badminton BC."
+    },
+    {
+      "name": "Dink Pickleball Club",
+      "address": "Richmond BC",
+      "note": "Dedicated indoor pickleball facility.",
+      "url": "https://www.dinkpickleball.ca/post/where-to-play-pickleball-in-richmond-bc"
+    },
+    {
+      "name": "South Arm & Hugh Boyd outdoor courts",
+      "address": "Richmond BC",
+      "note": "Outdoor pickleball — very busy evenings and weekends.",
+      "url": "https://www.richmond.ca/parks-recreation/about/sports/racquet.htm"
+    },
+    {
+      "name": "Speeders Richmond",
+      "address": "13471 Crestwood Pl, V6V 2G4",
+      "note": "Indoor go-karting."
+    },
+    {
+      "name": "Game On Go",
+      "address": "Richmond BC",
+      "note": "Interactive gaming sessions, flexible time blocks, free snack buffet on longer sessions."
+    },
+    {
+      "name": "Exit Richmond",
+      "address": "Richmond BC",
+      "note": "Escape rooms."
+    },
+    {
+      "name": "Splitsville",
+      "address": "Richmond BC",
+      "note": "Mini golf and bowling."
+    },
+    {
+      "name": "Flying Dance Studios",
+      "address": "260-4351 No. 3 Rd",
+      "note": "Hip hop masterclasses and dance classes. 778-987-8557."
+    },
+    {
+      "name": "River Rock Casino Resort",
+      "address": "8811 River Rd",
+      "note": "The main mid-size music room in Richmond — watch the concert calendar."
+    },
+    {
+      "name": "Richmond Country Farms",
+      "address": "12900 Steveston Hwy",
+      "note": "About $17, children 2 and under free. Sunflower Festival and seasonal events."
+    },
+    {
+      "name": "Aberdeen Centre",
+      "address": "4151 Hazelbridge Way",
+      "note": "Major Asian mall, open 365 days a year. Chinese New Year programming, Flower & Gift Fair.",
+      "url": "https://www.aberdeencentre.com/en/events.php"
+    },
+    {
+      "name": "Lansdowne Centre",
+      "address": "5300 No. 3 Rd, V6X 2X9",
+      "note": "Food garden, seasonal festivals, summer drive-in.",
+      "url": "https://lansdowne-centre.com/"
+    },
+    {
+      "name": "CF Richmond Centre",
+      "address": "6551 No. 3 Rd",
+      "note": "Arc'teryx and lululemon stores (both run clubs), brand pop-ups."
+    },
+    {
+      "name": "Gateway Theatre",
+      "address": "6500 Gilbert Rd, V7C 3V4",
+      "note": "The city theatre.",
+      "url": "https://www.richmond.ca/culture/howartworks/gateway.htm"
+    },
+    {
+      "name": "Richmond Art Gallery",
+      "address": "7700 Minoru Gate",
+      "note": "Free exhibitions.",
+      "url": "https://www.richmond.ca/culture/howartworks/richmondartgallery.htm"
+    },
+    {
+      "name": "Richmond Cultural Centre & Library",
+      "address": "7700 Minoru Gate",
+      "note": "Community programming; the Annex is used for events.",
+      "url": "https://www.richmond.ca/culture/howartworks/cultural-centre.htm"
+    },
+    {
+      "name": "Lipont Gallery",
+      "address": "4211 No. 3 Rd, V6X 2C3",
+      "note": "Art exhibitions."
+    },
+    {
+      "name": "Garry Point Park",
+      "address": "12011 Seventh Ave, V7E 4X2",
+      "note": "Waterfront park; market and festival site."
+    },
+    {
+      "name": "Steveston Village",
+      "address": "Richmond BC",
+      "note": "Historic village, Fisherman's Wharf, shops and cafes.",
+      "url": "https://www.visitrichmondbc.com/things-to-do/steveston-village/"
+    },
+    {
+      "name": "Gulf of Georgia Cannery NHS",
+      "address": "12138 Fourth Ave",
+      "note": "National historic site."
+    },
+    {
+      "name": "Britannia Shipyards NHS",
+      "address": "5180 Westwater Dr",
+      "note": "National historic site.",
+      "url": "https://www.richmond.ca/culture/sites/britanniashipyards.htm"
+    },
+    {
+      "name": "London Heritage Farm",
+      "address": "6511 Dyke Rd",
+      "note": "Heritage site, country fest.",
+      "url": "https://www.richmond.ca/culture/sites/londonfarm.htm"
+    },
+    {
+      "name": "Iona Beach Regional Park",
+      "address": "900 Ferguson Rd, V7B 1W7",
+      "note": "Birding and beach."
+    },
+    {
+      "name": "Richmond Nature Park",
+      "address": "11851 Westminster Hwy",
+      "note": "Trails and nature programming.",
+      "url": "https://www.richmond.ca/parks-recreation/parks/aboutrnp.htm"
+    },
+    {
+      "name": "Terra Nova Rural Park",
+      "address": "Richmond BC",
+      "note": "Farm centre and rural park."
+    },
+    {
+      "name": "Minoru Park / Minoru Centre for Active Living",
+      "address": "7191 Granville Ave",
+      "note": "Aquatics, fitness, seniors centre, park.",
+      "url": "https://www.richmond.ca/parks-recreation/centres/minoru.htm"
+    },
+    {
+      "name": "South Arm Community Centre",
+      "address": "8880 Williams Rd",
+      "note": "Swap meets and craft fairs.",
+      "url": "https://www.richmond.ca/parks-recreation/centres/southarm.htm"
+    },
+    {
+      "name": "Steveston Community Centre",
+      "address": "4111 Moncton St, V7E 3A8",
+      "note": "Christmas craft fair. Under construction/renewal.",
+      "url": "https://www.richmond.ca/parks-recreation/centres/steveston.htm"
+    },
+    {
+      "name": "Steveston Hub (Easthope)",
+      "address": "3551 / 4320 Moncton St",
+      "note": "Run crew meeting point; temporary community centre facility."
+    }
+  ],
+  "sources": {
+    "primary": [
+      {
+        "name": "City of Richmond — Events Calendar",
+        "url": "https://www.richmond.ca/culture/calendar/search/Default.aspx",
+        "note": "Official. Filterable by neighbourhood, age group, venue type, free-only. Most reliable."
+      },
+      {
+        "name": "City of Richmond — Special Events hub",
+        "url": "https://www.richmond.ca/culture/calendar/special-events.htm",
+        "note": "Landing page for city-wide event series."
+      },
+      {
+        "name": "Tourism Richmond — Events",
+        "url": "https://www.visitrichmondbc.com/events/",
+        "note": "Official DMO calendar. Filterable by venue and organizer."
+      },
+      {
+        "name": "Tourism Richmond — Winter in the Village",
+        "url": "https://www.visitrichmondbc.com/events/winter-in-the-village/",
+        "note": "December Steveston programming."
+      },
+      {
+        "name": "Tourism Richmond — Night Market",
+        "url": "https://www.visitrichmondbc.com/things-to-do/night-market/"
+      },
+      {
+        "name": "RCRG — Community Events Calendar",
+        "url": "https://www.rcrg.org/communityeventscalendar",
+        "note": "Nonprofit and community events."
+      },
+      {
+        "name": "Richmond Olympic Oval",
+        "url": "https://richmondoval.ca/"
+      },
+      {
+        "name": "Oval — Drop-In schedule",
+        "url": "https://richmondoval.ca/sport/drop-in/",
+        "note": "Court, ice, track, climbing wall."
+      },
+      {
+        "name": "City of Richmond — Racquet Sports",
+        "url": "https://www.richmond.ca/parks-recreation/about/sports/racquet.htm",
+        "note": "Tennis, squash, pickleball, court booking."
+      },
+      {
+        "name": "Steveston Community Society — Special Events",
+        "url": "https://stevestoncommunitysociety.com/special-events/"
+      },
+      {
+        "name": "Steveston Farmers & Artisans Market",
+        "url": "https://sfam.ca/"
+      },
+      {
+        "name": "Aberdeen Centre — Events",
+        "url": "https://www.aberdeencentre.com/en/events.php"
+      },
+      {
+        "name": "Lansdowne Centre — Mid-Autumn Festival 2026",
+        "url": "https://lansdowne-centre.com/mid-autumn-festival-2026/"
+      },
+      {
+        "name": "604 Now",
+        "url": "https://www.604now.com/",
+        "note": "Metro Vancouver events guide, monthly roundups."
+      }
+    ],
+    "aggregators": [
+      {
+        "name": "Eventbrite — Richmond",
+        "url": "https://www.eventbrite.ca/d/canada--richmond--24093/events/"
+      },
+      {
+        "name": "Eventbrite — Richmond festivals",
+        "url": "https://www.eventbrite.ca/d/canada--richmond--24093/festivals/"
+      },
+      {
+        "name": "Eventbrite — Richmond meetups",
+        "url": "https://www.eventbrite.ca/d/canada--richmond--24093/meetup/"
+      },
+      {
+        "name": "AllEvents — Richmond BC",
+        "url": "https://allevents.in/richmond-bc/all"
+      },
+      {
+        "name": "AllEvents — Steveston",
+        "url": "https://allevents.in/richmond-bc/steveston"
+      },
+      {
+        "name": "AllEvents — Christmas",
+        "url": "https://allevents.in/richmond-bc/christmas"
+      },
+      {
+        "name": "Meetup — Richmond BC",
+        "url": "https://www.meetup.com/find/ca--bc--richmond/"
+      },
+      {
+        "name": "Bandsintown — Richmond BC",
+        "url": "https://www.bandsintown.com/c/richmond-bc"
+      },
+      {
+        "name": "Thursday — singles & speed dating",
+        "url": "https://thursday.com/"
+      },
+      {
+        "name": "RunGuides — Vancouver races",
+        "url": "https://www.runguides.com/vancouver/runs"
+      },
+      {
+        "name": "Richmond Run Clubs directory",
+        "url": "https://icebreaker8k.ca/race-info/richmond-run-clubs/"
+      },
+      {
+        "name": "RUNVAN — Vancouver run crews",
+        "url": "https://runvan.org/crews/"
+      }
+    ],
+    "social": [
+      {
+        "name": "@604now",
+        "url": "https://www.instagram.com/604now/",
+        "note": "Verified. Best aggregate — monthly events guide carousels."
+      },
+      {
+        "name": "@visitrichmondbc",
+        "url": "https://www.instagram.com/visitrichmondbc/",
+        "note": "Tourism Richmond. Posts monthly to-do lists."
+      },
+      {
+        "name": "@cityofrichmondbc",
+        "url": "https://www.instagram.com/cityofrichmondbc/",
+        "note": "City of Richmond, official."
+      },
+      {
+        "name": "@stvstnruncrew",
+        "url": "https://www.instagram.com/stvstnruncrew/",
+        "note": "Steveston Run Crew."
+      },
+      {
+        "name": "@showtime.dada",
+        "url": "https://www.instagram.com/showtime.dada/",
+        "note": "Ola Dada — verified comedian, Richmond material."
+      },
+      {
+        "name": "@lifeof.hn",
+        "url": "https://www.instagram.com/lifeof.hn/",
+        "note": "Richmond events creator, detailed captions."
+      },
+      {
+        "name": "@iluhbubbletea",
+        "url": "https://www.instagram.com/iluhbubbletea/",
+        "note": "Night market and food creator."
+      },
+      {
+        "name": "@girlplansvancouver",
+        "url": "https://www.instagram.com/girlplansvancouver/",
+        "note": "Activity and date-spot reels."
+      },
+      {
+        "name": "@explorewithvivi",
+        "url": "https://www.instagram.com/explorewithvivi/",
+        "note": "Activity reels."
+      },
+      {
+        "name": "@inyourcommunity",
+        "url": "https://www.instagram.com/inyourcommunity/",
+        "note": "Community aggregator."
+      },
+      {
+        "name": "@artfest.ca",
+        "url": "https://www.instagram.com/artfest.ca/",
+        "note": "Art Fest Canada."
+      },
+      {
+        "name": "@trues_tea_lounge",
+        "url": "https://www.instagram.com/trues_tea_lounge/",
+        "note": "Trues Club karaoke lounge."
+      },
+      {
+        "name": "Steveston Run Crew on Strava",
+        "url": "https://www.strava.com/clubs/steveston-run-crew-520129",
+        "note": "Full weekly schedule posted here."
+      }
+    ]
+  },
+  "exclusions": [
+    {
+      "item": "@runclubrichmond (3.3K followers)",
+      "actually": "Richmond, Virginia",
+      "tell": "\"White Cross\" is an RVA brewery."
+    },
+    {
+      "item": "@rrc_richmondrunclub",
+      "actually": "Richmond, California"
+    },
+    {
+      "item": "@axiosrichmond",
+      "actually": "Richmond, Virginia",
+      "tell": "Byrd Theatre, Virginia universities, Lewis Ginter."
+    },
+    {
+      "item": "@onlyinyorkregion",
+      "actually": "Richmond Hill, Ontario"
+    },
+    {
+      "item": "RīN Run Club",
+      "actually": "Richmond, London UK",
+      "tell": "Big Ben in the graphic."
+    },
+    {
+      "item": "White Cross Pub free run/walk club, Wed 7pm",
+      "actually": "Richmond, Virginia"
+    },
+    {
+      "item": "The Pair Club \"September Vibes\"",
+      "actually": "Richmond, Virginia",
+      "tell": "\"Richmond Flying Squirrels\" is RVA minor league baseball."
+    },
+    {
+      "item": "Dance Class Social @ Somos Studio",
+      "actually": "Toronto"
+    },
+    {
+      "item": "Allianz Richmond Marathon (Nov 14)",
+      "actually": "Richmond, Virginia",
+      "tell": "richmondmarathon.org"
+    },
+    {
+      "item": "Richmond Fall Festival (Nicholl Park)",
+      "actually": "Richmond, California"
+    },
+    {
+      "item": "Music at Main / Triple Crossing Oktoberfest / The Richmond Experience",
+      "actually": "Richmond, Virginia"
+    },
+    {
+      "item": "Free stargazing party Sep 3",
+      "actually": "near Toronto"
+    },
+    {
+      "item": "\"10 Things To Do This Month in Richmond Hill\"",
+      "actually": "Ontario"
+    },
+    {
+      "item": "Richmond Hill adult drop-in programs (ActiveRH)",
+      "actually": "Ontario"
+    },
+    {
+      "item": "Crescent City Fall Classic",
+      "actually": "New Orleans"
+    },
+    {
+      "item": "Skagit Flats / Anacortes / Bellingham races",
+      "actually": "Washington State"
+    }
+  ],
+  "dataNotes": [
+    "Verify anything marked **Unconfirmed** before scheduling it. Times and venues for the Big Pirate Run, London Farm Country Fest, Divers' Catch Festival, Mid-Autumn Melodies, the Ola Dada comedy show, Public Art Walking Tours and Oval drop-in badminton are not confirmed.",
+    "Zodiac Bar has no confirmed website — every detail comes from a promotional flyer. Confirm by phone or Instagram DM.",
+    "The Richmond Night Market \"final season\" label comes from a 604now post. Tourism Richmond's official page does not say \"final\".",
+    "Steveston Community Centre is under construction. Programs and the Christmas Craft Fair may move to the Steveston Easthope Hub (4320 Moncton St).",
+    "October is the thinnest month here — only Steveston Ghost Walks (Oct 3) and Secret Ingredients (Oct 14–17). The City of Richmond calendar publishes on a rolling ~30/90-day window, so re-scrape it in early October.",
+    "The City of Richmond calendar showed 28–29 results across 3 pages at capture time; only page 1 was retrieved. Paginate for the full list.",
+    "Some Instagram profile URLs were constructed from confirmed handles rather than retrieved directly."
+  ]
+}
