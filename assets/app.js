@@ -940,6 +940,20 @@
 
   initTheme();
 
+  // Prefer data embedded in the page (works from file:// and in sandboxed
+  // hosts); otherwise fetch the JSON file the repo edits.
+  var inline = document.getElementById('events-data');
+  if (inline && inline.textContent.trim()) {
+    try {
+      boot(JSON.parse(inline.textContent));
+      return;
+    } catch (err) {
+      $('#main').innerHTML = '<p class="empty">The embedded event data is not valid JSON (' +
+        esc(err.message) + ').</p>';
+      return;
+    }
+  }
+
   fetch('data/events.json', { cache: 'no-cache' })
     .then(function (r) {
       if (!r.ok) throw new Error('HTTP ' + r.status);
